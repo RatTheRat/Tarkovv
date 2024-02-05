@@ -1,0 +1,200 @@
+@media screen and (max-width: 970px) {
+    .burger{
+        margin-right: 20px;
+        width: 40px;
+    }
+   .headerinks{
+    display: none;
+   }
+   .mod{
+    display: none;
+   }
+   .Profile,.logout,.prof,.log{
+    display: none;
+   }
+   .buttons{
+    width: auto;
+   }
+   .burger{
+    display: flex;
+    flex-direction: column;
+   }
+   .headerContent{
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+   .burger_menu{
+    /* transform: translateX(30%); */
+    transition: all ease 0.5s;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    top: 100%;
+    position: absolute;
+    height: 81vh;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(154,136,102,0.5);
+    background-color: black;
+    }
+    .burger_menu a{
+        text-decoration: none;
+        height: auto;
+    }
+    .itemcard{
+        flex-direction: column;
+    }
+    .About_card p{
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 1220px) {
+    .Title_image{
+        margin-top: 40px;
+    }
+    .block1{
+        justify-content: center;
+    }
+    .cards{
+        gap: 10%;
+        padding: 2%;
+        justify-content: center;
+    }
+    .itemcard{
+        width: 40%;
+    }
+    .infogr_text, .infogr_text_right{
+        width: 140px;
+    }
+
+}
+
+@media screen and (max-width: 1040px) {
+    .itemcard{
+        width: 90%;
+        padding: 25px;
+        border: 1px solid  rgba(154, 136, 102, 1);
+        
+    }
+    .DescriptCard{
+        margin-top: 25px;
+    }
+    .cards{
+        gap: 50px;
+    }
+    .Title_image{
+        height: 17vh;
+    }
+    .Descripspan{
+        font-size: 22px;
+    }
+    .priceCard h4{
+        font-size: 22px;
+    }
+    .priceCard{
+        flex-direction: row;
+        margin-top: 5%;
+    }
+    .btn{
+        font-size: 30px;
+    }
+    .priceCard h1{
+        font-size: 45px;
+    }
+    
+}
+
+@media screen and (max-width: 760px) {
+    .block_Video{
+        height: 80vh;
+    }
+    .About_card{
+        gap: 25px;
+        padding: 25px;
+        flex-direction: column;
+    }
+    .About_card p,.Video_info p{
+        font-size: 25px;
+    }
+    .ml{
+        margin-left: 0px;
+    }
+    .res{
+        flex-direction: column-reverse;
+    }
+    .bgfon{
+        height: 200vh;
+    }
+    .bgfon::after{
+        height: 201vh;
+    }
+    .cardImage{
+        justify-content: center;
+    }
+    .cardinfo{
+        width: auto;
+    }
+    .cardImage img{
+        width: 100%;
+        height: 100%;
+    }
+    .btn{
+        padding: 2%;
+        text-align: center;
+        width: 40%;
+    }
+    .infogr_text, .infogr_text_right{
+        width: 130px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .infogr_text, .infogr_text_right{
+        display: none;
+    }
+    .Wrapper_banner{
+        height: auto;
+    }
+    .bgfon{
+        height: 109vh;
+    }
+    .bgfon::after{
+        height: 125vh;
+    }
+    .cardnew{
+        flex-direction: column;
+    align-items: center;
+    }
+    .cardnew_img{
+        width: auto;
+    }
+    .cardnew_inform{
+        padding: 0px;
+    }
+    #new{
+        margin-bottom: 224px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .About_text h2{
+        font-size: 18px;
+    }
+    .About_text{
+        padding: 25px;
+    }
+    .mr img{
+        width: 300px;
+    }
+    .About_card{
+        gap: 50px;
+        padding: 0px;
+    }
+    .About_card p, .Video_info p{
+        font-size: 18px;
+    }
+}
+
+

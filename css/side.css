@@ -1,0 +1,297 @@
+@import url('https://fonts.cdnfonts.com/css/bender');
+*{
+    font-family: 'Bender', sans-serif;
+    color: #9A8866;
+    margin: 0;
+    padding: 0;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 25px;
+}
+.cardproduct{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    margin-right: 20%;
+}
+
+.cardleft{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+    height: auto;
+    float: left;
+    border-radius: 25px;
+   
+}
+.cardright{
+    display: flex;
+    width: 22%;
+    height: 300px;
+    float: right;
+    border-radius: 25px;
+    flex-direction: column;
+     padding: 1%;
+    
+}
+.cardinfo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
+}
+.cardcount{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+.delitem{
+    display: flex;
+    flex-direction: column;
+}
+.cardfullprice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.BuUttonBuy{
+    display: flex;
+}
+
+
+.padding{
+    padding: 2%;
+}
+
+
+.Buy{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(16, 206, 159);
+}
+
+.Plus,.Minus{
+background: rgb(16, 206, 159);
+}
+
+.deleteitem{
+    background: rgb(16, 206, 159);
+}
+
+.Version{
+    display: flex;
+    gap: 4%;
+    align-items: baseline;
+}
+.Version h2{
+    color: #9A8866;
+}
+.itemcard img{
+    object-fit: cover;
+}
+.itemcard{
+    border-radius: 6px;
+    box-shadow: 0 0 8px 0 rgb(40 38 34);
+}
+.itemcard:hover{
+    box-shadow: 0 0 8px 0 rgb(40 38 34);
+}
+.goto{
+    display: flex;
+    flex-direction: column;
+    
+}
+.links{
+    text-align: center;
+    text-decoration: none;
+}
+
+.blockimg{
+    position: relative;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+   
+}
+
+.block1 {
+   
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/404/404.jpg);
+    
+}
+.light{
+    width: 100%;
+    top: 0;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.goto{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 25px;
+}
+
+
+.username{
+    display: flex;
+    align-items: baseline;
+}
+.username h1{
+    margin-right: 40px;
+}
+.btnt{
+    border-radius: 8px;
+    border: 1px solid #9A8866;
+    cursor: pointer;
+    height: auto;
+    padding: 7px;
+    color: black;
+    background: #9A8866;
+}
+.btnt:hover{
+	color:white;
+	background-color:black ;
+}
+.DescriptCard{
+    flex-direction: column;
+    align-items: normal;
+}
+.Profilevk{
+    display: flex;
+}
+.Profilevk a{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.DescriptCard p{
+    margin-top: 25px;
+}
+.Tranc{
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    gap: 2%;
+}
+
+.Download{
+    text-align: center;
+}
+.changeblock{
+    gap:20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email_change{
+    opacity: 0.4;
+}
+
+.formsetting{
+    display: none;
+    top: 20%;
+    left: 35%;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0;
+}
+.titile{
+    margin-bottom: 25px;
+}
+.Authsumb{
+    opacity: 1;
+    margin-top: 25px;
+    width: 86%;
+}
+.btn{
+    border-radius: 4px;
+    border: 1px solid #9A8866;
+    transition: all ease 1s;
+    color: black;
+    cursor: pointer;
+    padding: 7px;
+    height: auto;
+    background-color: #9a8866;
+}
+
+.btn:hover{
+    background-color: #baa57f;
+    opacity: 1;
+    box-shadow: rgb(145, 132, 103) 0px 0px 10px;
+}
+
+.versiongame{
+    box-shadow: rgb(145, 132, 103) 0px 0px 10px;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .Title_Tranc{
+        font-size: 30px;
+    }
+    .Tranc{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+   
+    .itemcard img{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .UserButton a,.UserExit a {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .UserButton,.UserExit{
+        width: 100%;
+        justify-content: flex-end;
+        display: flex;
+        align-items: flex-end;
+    }
+}
+@media screen and (max-width: 500px) {
+   .Action{
+    display: none;
+   }
+    .itemcard{
+        padding: 0;
+    }
+    .Tranc{
+        align-content: center;
+        flex-direction: column-reverse;
+    }
+    
+}
+/* @media screen and (max-width: 1030px) {
+    .itemcard{
+        height: auto;
+    }
+} */
+
+
+

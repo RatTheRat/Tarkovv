@@ -1,0 +1,199 @@
+.itemcard{
+    display: flex;
+    width: auto;
+    cursor: auto;
+    margin-top: 10%;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px;
+    flex-direction: row;
+    gap:1%;
+    border-radius: 6px;
+    box-shadow: 0 0 8px 0 rgb(40 38 34);
+}
+.itemcard:hover{
+    box-shadow: 0 0 8px 0 rgb(40 38 34);
+}
+.wraptitle{
+    margin-top: 170px;
+}
+.miniimg{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 450px; 
+    Justify-content: space-between;
+}
+.image{
+    width: 70%;
+    height: 450px;
+}
+.itemimg{
+    gap:25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.iteminformation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.PriceBuy{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.12);
+    align-items: center;
+}
+.Descripinfo{
+    height: auto;
+}
+.cursor{
+    cursor: grab;
+    
+}
+
+
+.btn{
+    width: 150px;
+    height: 40px;
+}
+.buyitemss{
+    border-radius: 15px;
+    width: 150px;
+    height: 40px;
+}
+.moreinformation{
+    padding: 20px;
+    display: none;
+    justify-content: space-between;
+    height: 100px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.12);
+    align-items: center;
+}
+
+.imgmini{
+   
+    height: 40px;
+}
+
+
+.itemcard img{
+    border-radius: 0px;
+}
+.wrapper{
+    position: relative;
+    z-index: 10;
+    padding: 25px;
+}
+.emptyAccount{
+    z-index: 100000;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: beige;
+    border-radius: 4px;
+}
+
+.formempty{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 40%;
+    padding: 25px;
+    height: 30vh;
+    position: relative;
+}
+.closeEmpty{
+    top: 1%;
+    right: 10%;
+    position: absolute;
+}
+.formempty h3{
+    color: #9A8866;
+}
+.closeEmpty::before{
+    content: "×";
+    width: 15px;
+    height: 15px;
+   
+    position: absolute;
+    cursor: pointer;
+    font-size: 35px;
+    color: rgb(154, 136, 102);
+}
+.mod{
+    justify-content: center;
+    width: auto;
+}
+.color{
+    text-align: center;
+    margin-top: 50px;
+    color: #9A8866;
+}
+.alredybuy{
+    
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1030px) {
+    /* .itemcard{
+        flex-direction: column;
+    } */
+    .Descripinfo{
+        font-size: 22px;
+    }
+    .price h1{
+        font-size: 45px;
+    }
+    .btn{
+        height: auto;
+        width: auto;;
+    }
+}
+
+
+@media screen and (max-width: 861px) {
+    .itemcard{
+        flex-direction: column;
+    }
+    .wrapper{
+        height: 145vh;
+    }
+}
+@media screen and (max-width: 500px) {
+    .PriceBuy{
+        gap: 25px;
+        flex-direction: column;
+        align-items: normal;
+    }
+    .price{
+        text-align: center;
+    }
+    .Descripinfo{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 300px) {
+    .wraptitle h1{
+        font-size: 20px;
+    }
+}
+
+
+
+
